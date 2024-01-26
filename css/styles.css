@@ -324,6 +324,8 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+    margin-bottom: 8px
 }
 
 .portfolio-list-name-description {
@@ -341,6 +343,6 @@ a {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-    
+
 }
 
