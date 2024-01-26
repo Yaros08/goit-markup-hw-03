@@ -34,20 +34,6 @@ a {
     text-decoration: none;
 }
 
-.footer {
-    background-color: #2e2f42;
-}
-
-.studio-footer {
-    color: #f4f4fd;
-}
-
-.footer-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-}
-
 /* Header */
 .header {
     color: #2e2f42;
@@ -345,3 +331,26 @@ a {
     margin-bottom: 8px;
 }
 
+/* Footer section */
+.footer {
+    background-color: #2e2f42;
+
+    padding: 100px 0;
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.studio-footer {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+
+    max-width: 264px;
+}
