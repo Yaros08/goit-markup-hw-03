@@ -34,20 +34,6 @@ a {
     text-decoration: none;
 }
 
-.features-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.function {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-size: 16px;
-}
-
 .our-team-section {
     background-color: #f4f4fd;
 }
@@ -275,4 +261,28 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.features-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.function {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
 }
